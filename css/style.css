@@ -29,10 +29,9 @@ section {
 .card {
     background-color: #F3F3F3;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 350px;
-    height: 550px;
-    border: red solid 2px;
+    background-size:contain;
+    width: 300px;
+    height: 500px;
     text-align: justify;
     padding:1rem;
     margin: 1rem;
@@ -46,13 +45,15 @@ section {
 .corazon {
     width:fit-content;
     position: relative;
-    right: 9rem;
-    
+    right: 7.5rem;    
 }
 .heroe{
     width: 50%;
     border-radius: 50%;
-    margin: 25% 0 -2% 0;
+    margin: 25% 0 -1% 0;
+}
+p {
+    font-size: 14px;
 }
 .batman {
     background-image: url(../img/fondoBatman.png);
@@ -80,4 +81,16 @@ footer {
     color: white;
     padding: 1rem;
     text-align: center;
+}
+
+
+
+/* Tablets en adelante*/
+@media (min-width:460px) {
+
+    .supercard {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
